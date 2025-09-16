@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+    color:white
+
+}
+body {
+    background-color: rgb(243, 80, 80);
+    color:white
+}
+table, td, tr {
+    padding: 1px;
+    outline: 2px solid black; 
+    height: 200px;
+    align-content: center;
+    width: 1200px;
+    color:white
+}

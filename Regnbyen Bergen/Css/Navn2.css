@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+    color:white
+}
+body {
+    background-color: rgb(230, 174, 7);
+    color:white
+}
+div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 500px
+}
