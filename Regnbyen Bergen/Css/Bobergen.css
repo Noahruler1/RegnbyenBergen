@@ -1,8 +1,8 @@
+
 body {
 background-color: rgb(246, 231, 231);
-background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/374/866/small/Background_1_A.jpg");
-  background-size: 150px;
-
+background-image: url("https://res.cloudinary.com/gofjords-com/images/w_2560,h_1707,c_scale/f_auto,q_auto:eco/v1607425712/Blog%20Content/Bergen/x%20reasons%20why%20you%20should%20visit%20Bergen/Bryggen-Bergen-rain-umbrella-wet-weather-1/Bryggen-Bergen-rain-umbrella-wet-weather-1.jpg?_i=AA");
+background-size: 100%;
 }
 h1 {
 text-align: center;
