@@ -6,22 +6,25 @@ h1 {
 }
 
 body {
-    background-color: rgb(243, 80, 80);
+    background-color: rgba(117, 115, 115);
     color: white;
+    background-image: url("https://i.natgeofe.com/n/c0d2f736-d52f-49a8-9652-cd0d58f6f5cc/weekender_gettyimages-522038184_hr_web.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 table {
-    width: 90%;
-    max-width: 550px;
-    margin: 40px auto;
+    width: 1000px;
+    max-width: 200px;
+    margin: 20px auto;
     border-collapse: collapse;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(117, 115, 115);
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -35,3 +38,11 @@ tr:last-child td {
     border-bottom: none;
 }
 
+    form {
+      width: 1000px;
+      margin: 20px auto;
+      background-color: rgb(113, 112, 112);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+    }
