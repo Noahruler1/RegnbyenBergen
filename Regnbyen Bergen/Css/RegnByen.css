@@ -9,7 +9,8 @@ h1 {
 text-align: center;
 }
 
-    p {
+
+    p a {
       text-align: center;
       font-size: larger;
     }
