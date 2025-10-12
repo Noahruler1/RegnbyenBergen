@@ -1,9 +1,120 @@
+.topbar {
+  background-color: #2b2b2b;
+  color: #e0e0e0;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #e0e0e0;
+  text-decoration: none;
+} 
+
+.logo:hover {
+  color: #fff;
+}
+
+.logo .icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  stroke: #4fa3ff;
+}
+
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #e0e0e0;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.nav a:hover {
+  background-color: #3c3f41;
+  color: #fff;
+}
+.bunnbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 20%;
+  background-color: #2b2b2b;
+  color: #d87272;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.3);
+  font-family: Arial, sans-serif;
+  z-index: 1000; 
+}
+
+
+.container1 {
+    position: sticky;
+background-color: #2b2b2b;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo1 {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #e0e0e0;
+  text-decoration: none;
+}
+
+.logo1:hover {
+  color: #fff;
+}
+
+
+.nav1 {
+  display: flex;
+  gap: 20px;
+}
+
+.nav1 a {
+  text-decoration: none;
+  color: #e0e0e0;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.nav1 a:hover {
+  background-color: #3c3f41;
+  color: #fff;
+}
 body {
 background-color: rgb(20, 16, 16);
 background-image: url("https://res.cloudinary.com/gofjords-com/images/w_2560,h_1707,c_scale/f_auto,q_auto:eco/v1607425712/Blog%20Content/Bergen/x%20reasons%20why%20you%20should%20visit%20Bergen/Bryggen-Bergen-rain-umbrella-wet-weather-1/Bryggen-Bergen-rain-umbrella-wet-weather-1.jpg?_i=AA");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+color:white
 }
 h1 {
 text-align: center;
@@ -12,6 +123,7 @@ table {
   text-align: center;
   font-size: xx-large;
   align-self: center;
+
 }
 
     p a {
@@ -28,10 +140,92 @@ table {
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       color:white;
     }
-    img {
-      width: 300px;
-      margin: auto;
-    }
+
     imgcontainer1 {
       align-items: center;
     }
+    
+    .book-item {
+      display: flex;
+      align-items: center;
+      padding: 12px;
+      margin-bottom: 12px;
+      border: 1px solid #d9e6f2;
+      border-radius: 8px;
+      background: #626263;
+    }
+    .book-item:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .book-item img {
+      width: 60px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-right: 15px;
+      border: 1px solid #ccc;
+    }
+    .book-item label {
+      flex: 1;
+      cursor: pointer;
+    }
+    .book-item input[type="checkbox"] {
+      margin-right: 10px;
+    }
+    button {
+      background-color: #0066cc;
+      color: #ffffff;
+      border: none;
+      padding: 14px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 16px;
+      margin-top: 15px;
+     
+    }
+    button:hover {
+      background-color: #004080;
+    }
+    .summary {
+      margin-top: 15px;
+      padding: 12px;
+      background: #2e29bf;
+      border-radius: 8px;
+      border: 1px solid #d0e0f0;
+    }
+    .summary p {
+      margin: 5px 0;
+    }
+        
+      .image-container3 {
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    }
+        .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    }
+    table {
+    width: 1000px;
+    max-width: 200px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgba(117, 115, 115);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+td, tr {
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
