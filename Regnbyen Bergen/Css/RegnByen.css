@@ -246,3 +246,8 @@ tr:last-child td {
 h2 {
   text-align: center;
 }
+
+.python-bilder {
+  display: flex;
+  flex-direction: column;
+}
