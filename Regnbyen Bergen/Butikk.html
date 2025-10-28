@@ -99,7 +99,7 @@
     function orderBooks() {
       const total = updateTotal();
       if (total === 0) {
-        alert("Du må velge minst én bok før du kan bestille.");
+        alert("Du må velge minst én vare før du kan bestille.");
         return;
       }
       const finalPrice = total > 500 ? total : total + 50;
